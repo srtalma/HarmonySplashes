@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-import joblib  # Import joblib
+import pickle  # Import pickle instead of joblib
 
 #name of Page
 st.set_page_config(page_title='Harmony Splash Project')
@@ -8,13 +8,14 @@ st.set_page_config(page_title='Harmony Splash Project')
 # Load the model
 try:
     model_filename = 'model.pkl'
-    model = joblib.load(model_filename)
+    with open(model_filename, 'rb') as file:
+        model = pickle.load(file)
 
 except Exception as e:
     st.error(f"Error loading model: {e}")
 
 def main():
-    st.title('Temperature Prediction App')
+    st.title('Harmony Splash Project')
 
     # -------------------- User input ----------------------
     activity = st.selectbox('Select the Activity', ['Shower', 'Hand Washing', 'Dishwashing', 'Laundry'])
