@@ -1,0 +1,300 @@
+UserID,Activity,TimeOfDay,Season,ExternalTemp,RoomTemp,RoomHumidity,FlowRate,ColdWaterTemp,DesiredTemp
+1,Shower,Morning,Winter,5,20,45,9.0,10.0,42.0
+2,Hand Washing,Evening,Summer,30,24,55,5.0,25.0,35.0
+3,Dishwashing,Afternoon,Spring,20,22,50,12.0,15.0,45.0
+4,Laundry,Morning,Autumn,10,19,40,15.0,12.0,30.0
+5,Shower,Evening,Winter,0,18,50,10.0,5.0,40.0
+6,Hand Washing,Afternoon,Spring,22,21,45,6.0,20.0,33.0
+7,Dishwashing,Morning,Summer,28,26,60,11.0,23.0,38.0
+8,Laundry,Evening,Winter,-5,17,55,14.0,8.0,28.0
+9,Shower,Afternoon,Autumn,15,22,48,9.0,16.0,39.0
+10,Hand Washing,Morning,Summer,35,25,50,5.0,30.0,30.0
+11,Shower,Morning,Winter,5,20,45,9.0,10.0,42.0
+12,Hand Washing,Evening,Summer,30,24,55,5.0,25.0,35.0
+13,Dishwashing,Afternoon,Spring,20,22,50,12.0,15.0,45.0
+14,Laundry,Morning,Autumn,10,19,40,15.0,12.0,30.0
+15,Shower,Evening,Winter,0,18,50,10.0,5.0,40.0
+16,Hand Washing,Afternoon,Spring,22,21,45,6.0,20.0,33.0
+17,Dishwashing,Morning,Summer,28,26,60,11.0,23.0,38.0
+18,Laundry,Evening,Winter,-5,17,55,14.0,8.0,28.0
+19,Shower,Afternoon,Autumn,15,22,48,9.0,16.0,39.0
+20,Hand Washing,Morning,Summer,35,25,50,5.0,30.0,30.0
+21,Shower,Morning,Winter,5,20,45,9.0,10.0,42.0
+22,Hand Washing,Evening,Summer,30,24,55,5.0,25.0,35.0
+23,Dishwashing,Afternoon,Spring,20,22,50,12.0,15.0,45.0
+24,Laundry,Morning,Autumn,10,19,40,15.0,12.0,30.0
+25,Shower,Evening,Winter,0,18,50,10.0,5.0,40.0
+26,Hand Washing,Afternoon,Spring,22,21,45,6.0,20.0,33.0
+27,Dishwashing,Morning,Summer,28,26,60,11.0,23.0,38.0
+28,Laundry,Evening,Winter,-5,17,55,14.0,8.0,28.0
+29,Shower,Afternoon,Autumn,15,22,48,9.0,16.0,39.0
+30,Hand Washing,Morning,Summer,35,25,50,5.0,30.0,30.0
+31,Shower,Morning,Winter,5,20,45,9.0,10.0,42.0
+32,Hand Washing,Evening,Summer,30,24,55,5.0,25.0,35.0
+33,Dishwashing,Afternoon,Spring,20,22,50,12.0,15.0,45.0
+34,Laundry,Morning,Autumn,10,19,40,15.0,12.0,30.0
+35,Shower,Evening,Winter,0,18,50,10.0,5.0,40.0
+36,Hand Washing,Afternoon,Spring,22,21,45,6.0,20.0,33.0
+37,Dishwashing,Morning,Summer,28,26,60,11.0,23.0,38.0
+38,Laundry,Evening,Winter,-5,17,55,14.0,8.0,28.0
+39,Shower,Afternoon,Autumn,15,22,48,9.0,16.0,39.0
+40,Hand Washing,Morning,Summer,35,25,50,5.0,30.0,30.0
+41,Shower,Morning,Winter,5,20,45,9.0,10.0,42.0
+42,Hand Washing,Evening,Summer,30,24,55,5.0,25.0,35.0
+43,Dishwashing,Afternoon,Spring,20,22,50,12.0,15.0,45.0
+44,Laundry,Morning,Autumn,10,19,40,15.0,12.0,30.0
+45,Shower,Evening,Winter,0,18,50,10.0,5.0,40.0
+46,Hand Washing,Afternoon,Spring,22,21,45,6.0,20.0,33.0
+47,Dishwashing,Morning,Summer,28,26,60,11.0,23.0,38.0
+48,Laundry,Evening,Winter,-5,17,55,14.0,8.0,28.0
+49,Shower,Afternoon,Autumn,15,22,48,9.0,16.0,39.0
+50,Hand Washing,Morning,Summer,35,25,50,5.0,30.0,30.0
+51,Shower,Morning,Winter,5,20,45,9.0,10.0,42.0
+52,Hand Washing,Evening,Summer,30,24,55,5.0,25.0,35.0
+53,Dishwashing,Afternoon,Spring,20,22,50,12.0,15.0,45.0
+54,Laundry,Morning,Autumn,10,19,40,15.0,12.0,30.0
+55,Shower,Evening,Winter,0,18,50,10.0,5.0,40.0
+56,Hand Washing,Afternoon,Spring,22,21,45,6.0,20.0,33.0
+57,Dishwashing,Morning,Summer,28,26,60,11.0,23.0,38.0
+58,Laundry,Evening,Winter,-5,17,55,14.0,8.0,28.0
+59,Shower,Afternoon,Autumn,15,22,48,9.0,16.0,39.0
+60,Hand Washing,Morning,Summer,35,25,50,5.0,30.0,30.0
+61,Shower,Morning,Winter,5,20,45,9.0,10.0,42.0
+62,Hand Washing,Evening,Summer,30,24,55,5.0,25.0,35.0
+63,Dishwashing,Afternoon,Spring,20,22,50,12.0,15.0,45.0
+64,Laundry,Morning,Autumn,10,19,40,15.0,12.0,30.0
+65,Shower,Evening,Winter,0,18,50,10.0,5.0,40.0
+66,Hand Washing,Afternoon,Spring,22,21,45,6.0,20.0,33.0
+67,Dishwashing,Morning,Summer,28,26,60,11.0,23.0,38.0
+68,Laundry,Evening,Winter,-5,17,55,14.0,8.0,28.0
+69,Shower,Afternoon,Autumn,15,22,48,9.0,16.0,39.0
+70,Hand Washing,Morning,Summer,35,25,50,5.0,30.0,30.0
+71,Shower,Morning,Winter,5,20,45,9.0,10.0,42.0
+72,Hand Washing,Evening,Summer,30,24,55,5.0,25.0,35.0
+73,Dishwashing,Afternoon,Spring,20,22,50,12.0,15.0,45.0
+74,Laundry,Morning,Autumn,10,19,40,15.0,12.0,30.0
+75,Shower,Evening,Winter,0,18,50,10.0,5.0,40.0
+76,Hand Washing,Afternoon,Spring,22,21,45,6.0,20.0,33.0
+77,Dishwashing,Morning,Summer,28,26,60,11.0,23.0,38.0
+78,Laundry,Evening,Winter,-5,17,55,14.0,8.0,28.0
+79,Shower,Afternoon,Autumn,15,22,48,9.0,16.0,39.0
+80,Hand Washing,Morning,Summer,35,25,50,5.0,30.0,30.0
+81,Shower,Morning,Winter,5,20,45,9.0,10.0,42.0
+82,Hand Washing,Evening,Summer,30,24,55,5.0,25.0,35.0
+83,Dishwashing,Afternoon,Spring,20,22,50,12.0,15.0,45.0
+84,Laundry,Morning,Autumn,10,19,40,15.0,12.0,30.0
+85,Shower,Evening,Winter,0,18,50,10.0,5.0,40.0
+86,Hand Washing,Afternoon,Spring,22,21,45,6.0,20.0,33.0
+87,Dishwashing,Morning,Summer,28,26,60,11.0,23.0,38.0
+88,Laundry,Evening,Winter,-5,17,55,14.0,8.0,28.0
+89,Shower,Afternoon,Autumn,15,22,48,9.0,16.0,39.0
+90,Hand Washing,Morning,Summer,35,25,50,5.0,30.0,30.0
+91,Shower,Morning,Winter,5,20,45,9.0,10.0,42.0
+92,Hand Washing,Evening,Summer,30,24,55,5.0,25.0,35.0
+93,Dishwashing,Afternoon,Spring,20,22,50,12.0,15.0,45.0
+94,Laundry,Morning,Autumn,10,19,40,15.0,12.0,30.0
+95,Shower,Evening,Winter,0,18,50,10.0,5.0,40.0
+96,Hand Washing,Afternoon,Spring,22,21,45,6.0,20.0,33.0
+97,Dishwashing,Morning,Summer,28,26,60,11.0,23.0,38.0
+98,Laundry,Evening,Winter,-5,17,55,14.0,8.0,28.0
+99,Shower,Afternoon,Autumn,15,22,48,9.0,16.0,39.0
+100,Hand Washing,Morning,Summer,35,25,50,5.0,30.0,30.0
+101,Shower,Morning,Winter,5,20,45,9.0,10.0,42.0
+102,Hand Washing,Evening,Summer,30,24,55,5.0,25.0,35.0
+103,Dishwashing,Afternoon,Spring,20,22,50,12.0,15.0,45.0
+104,Laundry,Morning,Autumn,10,19,40,15.0,12.0,30.0
+105,Shower,Evening,Winter,0,18,50,10.0,5.0,40.0
+106,Hand Washing,Afternoon,Spring,22,21,45,6.0,20.0,33.0
+107,Dishwashing,Morning,Summer,28,26,60,11.0,23.0,38.0
+108,Laundry,Evening,Winter,-5,17,55,14.0,8.0,28.0
+109,Shower,Afternoon,Autumn,15,22,48,9.0,16.0,39.0
+110,Hand Washing,Morning,Summer,35,25,50,5.0,30.0,30.0
+111,Shower,Morning,Winter,5,20,45,9.0,10.0,42.0
+112,Hand Washing,Evening,Summer,30,24,55,5.0,25.0,35.0
+113,Dishwashing,Afternoon,Spring,20,22,50,12.0,15.0,45.0
+114,Laundry,Morning,Autumn,10,19,40,15.0,12.0,30.0
+115,Shower,Evening,Winter,0,18,50,10.0,5.0,40.0
+116,Hand Washing,Afternoon,Spring,22,21,45,6.0,20.0,33.0
+117,Dishwashing,Morning,Summer,28,26,60,11.0,23.0,38.0
+118,Laundry,Evening,Winter,-5,17,55,14.0,8.0,28.0
+119,Shower,Afternoon,Autumn,15,22,48,9.0,16.0,39.0
+120,Hand Washing,Morning,Summer,35,25,50,5.0,30.0,30.0
+121,Shower,Morning,Winter,5,20,45,9.0,10.0,42.0
+122,Hand Washing,Evening,Summer,30,24,55,5.0,25.0,35.0
+123,Dishwashing,Afternoon,Spring,20,22,50,12.0,15.0,45.0
+124,Laundry,Morning,Autumn,10,19,40,15.0,12.0,30.0
+125,Shower,Evening,Winter,0,18,50,10.0,5.0,40.0
+126,Hand Washing,Afternoon,Spring,22,21,45,6.0,20.0,33.0
+127,Dishwashing,Morning,Summer,28,26,60,11.0,23.0,38.0
+128,Laundry,Evening,Winter,-5,17,55,14.0,8.0,28.0
+129,Shower,Afternoon,Autumn,15,22,48,9.0,16.0,39.0
+130,Hand Washing,Morning,Summer,35,25,50,5.0,30.0,30.0
+131,Shower,Morning,Winter,5,20,45,9.0,10.0,42.0
+132,Hand Washing,Evening,Summer,30,24,55,5.0,25.0,35.0
+133,Dishwashing,Afternoon,Spring,20,22,50,12.0,15.0,45.0
+134,Laundry,Morning,Autumn,10,19,40,15.0,12.0,30.0
+135,Shower,Evening,Winter,0,18,50,10.0,5.0,40.0
+136,Hand Washing,Afternoon,Spring,22,21,45,6.0,20.0,33.0
+137,Dishwashing,Morning,Summer,28,26,60,11.0,23.0,38.0
+138,Laundry,Evening,Winter,-5,17,55,14.0,8.0,28.0
+139,Shower,Afternoon,Autumn,15,22,48,9.0,16.0,39.0
+140,Hand Washing,Morning,Summer,35,25,50,5.0,30.0,30.0
+141,Shower,Morning,Winter,5,20,45,9.0,10.0,42.0
+142,Hand Washing,Evening,Summer,30,24,55,5.0,25.0,35.0
+143,Dishwashing,Afternoon,Spring,20,22,50,12.0,15.0,45.0
+144,Laundry,Morning,Autumn,10,19,40,15.0,12.0,30.0
+145,Shower,Evening,Winter,0,18,50,10.0,5.0,40.0
+146,Hand Washing,Afternoon,Spring,22,21,45,6.0,20.0,33.0
+147,Dishwashing,Morning,Summer,28,26,60,11.0,23.0,38.0
+148,Laundry,Evening,Winter,-5,17,55,14.0,8.0,28.0
+149,Shower,Afternoon,Autumn,15,22,48,9.0,16.0,39.0
+150,Hand Washing,Morning,Summer,35,25,50,5.0,30.0,30.0
+151,Shower,Morning,Winter,5,20,45,9.0,10.0,42.0
+152,Hand Washing,Evening,Summer,30,24,55,5.0,25.0,35.0
+153,Dishwashing,Afternoon,Spring,20,22,50,12.0,15.0,45.0
+154,Laundry,Morning,Autumn,10,19,40,15.0,12.0,30.0
+155,Shower,Evening,Winter,0,18,50,10.0,5.0,40.0
+156,Hand Washing,Afternoon,Spring,22,21,45,6.0,20.0,33.0
+157,Dishwashing,Morning,Summer,28,26,60,11.0,23.0,38.0
+158,Laundry,Evening,Winter,-5,17,55,14.0,8.0,28.0
+159,Shower,Afternoon,Autumn,15,22,48,9.0,16.0,39.0
+160,Hand Washing,Morning,Summer,35,25,50,5.0,30.0,30.0
+161,Shower,Morning,Winter,5,20,45,9.0,10.0,42.0
+162,Hand Washing,Evening,Summer,30,24,55,5.0,25.0,35.0
+163,Dishwashing,Afternoon,Spring,20,22,50,12.0,15.0,45.0
+164,Laundry,Morning,Autumn,10,19,40,15.0,12.0,30.0
+165,Shower,Evening,Winter,0,18,50,10.0,5.0,40.0
+166,Hand Washing,Afternoon,Spring,22,21,45,6.0,20.0,33.0
+167,Dishwashing,Morning,Summer,28,26,60,11.0,23.0,38.0
+168,Laundry,Evening,Winter,-5,17,55,14.0,8.0,28.0
+169,Shower,Afternoon,Autumn,15,22,48,9.0,16.0,39.0
+170,Hand Washing,Morning,Summer,35,25,50,5.0,30.0,30.0
+171,Shower,Morning,Winter,5,20,45,9.0,10.0,42.0
+172,Hand Washing,Evening,Summer,30,24,55,5.0,25.0,35.0
+173,Dishwashing,Afternoon,Spring,20,22,50,12.0,15.0,45.0
+174,Laundry,Morning,Autumn,10,19,40,15.0,12.0,30.0
+175,Shower,Evening,Winter,0,18,50,10.0,5.0,40.0
+176,Hand Washing,Afternoon,Spring,22,21,45,6.0,20.0,33.0
+177,Dishwashing,Morning,Summer,28,26,60,11.0,23.0,38.0
+178,Laundry,Evening,Winter,-5,17,55,14.0,8.0,28.0
+179,Shower,Afternoon,Autumn,15,22,48,9.0,16.0,39.0
+180,Hand Washing,Morning,Summer,35,25,50,5.0,30.0,30.0
+181,Shower,Morning,Winter,5,20,45,9.0,10.0,42.0
+182,Hand Washing,Evening,Summer,30,24,55,5.0,25.0,35.0
+183,Dishwashing,Afternoon,Spring,20,22,50,12.0,15.0,45.0
+184,Laundry,Morning,Autumn,10,19,40,15.0,12.0,30.0
+185,Shower,Evening,Winter,0,18,50,10.0,5.0,40.0
+186,Hand Washing,Afternoon,Spring,22,21,45,6.0,20.0,33.0
+187,Dishwashing,Morning,Summer,28,26,60,11.0,23.0,38.0
+188,Laundry,Evening,Winter,-5,17,55,14.0,8.0,28.0
+189,Shower,Afternoon,Autumn,15,22,48,9.0,16.0,39.0
+190,Hand Washing,Morning,Summer,35,25,50,5.0,30.0,30.0
+191,Shower,Morning,Winter,5,20,45,9.0,10.0,42.0
+192,Hand Washing,Evening,Summer,30,24,55,5.0,25.0,35.0
+193,Dishwashing,Afternoon,Spring,20,22,50,12.0,15.0,45.0
+194,Laundry,Morning,Autumn,10,19,40,15.0,12.0,30.0
+195,Shower,Evening,Winter,0,18,50,10.0,5.0,40.0
+196,Hand Washing,Afternoon,Spring,22,21,45,6.0,20.0,33.0
+197,Dishwashing,Morning,Summer,28,26,60,11.0,23.0,38.0
+198,Laundry,Evening,Winter,-5,17,55,14.0,8.0,28.0
+199,Shower,Afternoon,Autumn,15,22,48,9.0,16.0,39.0
+200,Hand Washing,Morning,Summer,35,25,50,5.0,30.0,30.0
+201,Shower,Morning,Winter,5,20,45,9.0,10.0,42.0
+202,Hand Washing,Evening,Summer,30,24,55,5.0,25.0,35.0
+203,Dishwashing,Afternoon,Spring,20,22,50,12.0,15.0,45.0
+204,Laundry,Morning,Autumn,10,19,40,15.0,12.0,30.0
+205,Shower,Evening,Winter,0,18,50,10.0,5.0,40.0
+206,Hand Washing,Afternoon,Spring,22,21,45,6.0,20.0,33.0
+207,Dishwashing,Morning,Summer,28,26,60,11.0,23.0,38.0
+208,Laundry,Evening,Winter,-5,17,55,14.0,8.0,28.0
+209,Shower,Afternoon,Autumn,15,22,48,9.0,16.0,39.0
+210,Hand Washing,Morning,Summer,35,25,50,5.0,30.0,30.0
+211,Shower,Morning,Winter,5,20,45,9.0,10.0,42.0
+212,Hand Washing,Evening,Summer,30,24,55,5.0,25.0,35.0
+213,Dishwashing,Afternoon,Spring,20,22,50,12.0,15.0,45.0
+214,Laundry,Morning,Autumn,10,19,40,15.0,12.0,30.0
+215,Shower,Evening,Winter,0,18,50,10.0,5.0,40.0
+216,Hand Washing,Afternoon,Spring,22,21,45,6.0,20.0,33.0
+217,Dishwashing,Morning,Summer,28,26,60,11.0,23.0,38.0
+218,Laundry,Evening,Winter,-5,17,55,14.0,8.0,28.0
+219,Shower,Afternoon,Autumn,15,22,48,9.0,16.0,39.0
+220,Hand Washing,Morning,Summer,35,25,50,5.0,30.0,30.0
+221,Shower,Morning,Winter,5,20,45,9.0,10.0,42.0
+222,Hand Washing,Evening,Summer,30,24,55,5.0,25.0,35.0
+223,Dishwashing,Afternoon,Spring,20,22,50,12.0,15.0,45.0
+224,Laundry,Morning,Autumn,10,19,40,15.0,12.0,30.0
+225,Shower,Evening,Winter,0,18,50,10.0,5.0,40.0
+226,Hand Washing,Afternoon,Spring,22,21,45,6.0,20.0,33.0
+227,Dishwashing,Morning,Summer,28,26,60,11.0,23.0,38.0
+228,Laundry,Evening,Winter,-5,17,55,14.0,8.0,28.0
+229,Shower,Afternoon,Autumn,15,22,48,9.0,16.0,39.0
+230,Hand Washing,Morning,Summer,35,25,50,5.0,30.0,30.0
+231,Shower,Morning,Winter,5,20,45,9.0,10.0,42.0
+232,Hand Washing,Evening,Summer,30,24,55,5.0,25.0,35.0
+233,Dishwashing,Afternoon,Spring,20,22,50,12.0,15.0,45.0
+234,Laundry,Morning,Autumn,10,19,40,15.0,12.0,30.0
+235,Shower,Evening,Winter,0,18,50,10.0,5.0,40.0
+236,Hand Washing,Afternoon,Spring,22,21,45,6.0,20.0,33.0
+237,Dishwashing,Morning,Summer,28,26,60,11.0,23.0,38.0
+238,Laundry,Evening,Winter,-5,17,55,14.0,8.0,28.0
+239,Shower,Afternoon,Autumn,15,22,48,9.0,16.0,39.0
+240,Hand Washing,Morning,Summer,35,25,50,5.0,30.0,30.0
+241,Shower,Morning,Winter,5,20,45,9.0,10.0,42.0
+242,Hand Washing,Evening,Summer,30,24,55,5.0,25.0,35.0
+243,Dishwashing,Afternoon,Spring,20,22,50,12.0,15.0,45.0
+244,Laundry,Morning,Autumn,10,19,40,15.0,12.0,30.0
+245,Shower,Evening,Winter,0,18,50,10.0,5.0,40.0
+246,Hand Washing,Afternoon,Spring,22,21,45,6.0,20.0,33.0
+247,Dishwashing,Morning,Summer,28,26,60,11.0,23.0,38.0
+248,Laundry,Evening,Winter,-5,17,55,14.0,8.0,28.0
+249,Shower,Afternoon,Autumn,15,22,48,9.0,16.0,39.0
+250,Hand Washing,Morning,Summer,35,25,50,5.0,30.0,30.0
+251,Shower,Morning,Winter,5,20,45,9.0,10.0,42.0
+252,Hand Washing,Evening,Summer,30,24,55,5.0,25.0,35.0
+253,Dishwashing,Afternoon,Spring,20,22,50,12.0,15.0,45.0
+254,Laundry,Morning,Autumn,10,19,40,15.0,12.0,30.0
+255,Shower,Evening,Winter,0,18,50,10.0,5.0,40.0
+256,Hand Washing,Afternoon,Spring,22,21,45,6.0,20.0,33.0
+257,Dishwashing,Morning,Summer,28,26,60,11.0,23.0,38.0
+258,Laundry,Evening,Winter,-5,17,55,14.0,8.0,28.0
+259,Shower,Afternoon,Autumn,15,22,48,9.0,16.0,39.0
+260,Hand Washing,Morning,Summer,35,25,50,5.0,30.0,30.0
+261,Shower,Morning,Winter,5,20,45,9.0,10.0,42.0
+262,Hand Washing,Evening,Summer,30,24,55,5.0,25.0,35.0
+263,Dishwashing,Afternoon,Spring,20,22,50,12.0,15.0,45.0
+264,Laundry,Morning,Autumn,10,19,40,15.0,12.0,30.0
+265,Shower,Evening,Winter,0,18,50,10.0,5.0,40.0
+266,Hand Washing,Afternoon,Spring,22,21,45,6.0,20.0,33.0
+267,Dishwashing,Morning,Summer,28,26,60,11.0,23.0,38.0
+268,Laundry,Evening,Winter,-5,17,55,14.0,8.0,28.0
+269,Shower,Afternoon,Autumn,15,22,48,9.0,16.0,39.0
+270,Hand Washing,Morning,Summer,35,25,50,5.0,30.0,30.0
+271,Shower,Morning,Winter,5,20,45,9.0,10.0,42.0
+272,Hand Washing,Evening,Summer,30,24,55,5.0,25.0,35.0
+273,Dishwashing,Afternoon,Spring,20,22,50,12.0,15.0,45.0
+274,Laundry,Morning,Autumn,10,19,40,15.0,12.0,30.0
+275,Shower,Evening,Winter,0,18,50,10.0,5.0,40.0
+276,Hand Washing,Afternoon,Spring,22,21,45,6.0,20.0,33.0
+277,Dishwashing,Morning,Summer,28,26,60,11.0,23.0,38.0
+278,Laundry,Evening,Winter,-5,17,55,14.0,8.0,28.0
+279,Shower,Afternoon,Autumn,15,22,48,9.0,16.0,39.0
+280,Hand Washing,Morning,Summer,35,25,50,5.0,30.0,30.0
+281,Shower,Morning,Winter,5,20,45,9.0,10.0,42.0
+282,Hand Washing,Evening,Summer,30,24,55,5.0,25.0,35.0
+283,Dishwashing,Afternoon,Spring,20,22,50,12.0,15.0,45.0
+284,Laundry,Morning,Autumn,10,19,40,15.0,12.0,30.0
+285,Shower,Evening,Winter,0,18,50,10.0,5.0,40.0
+286,Hand Washing,Afternoon,Spring,22,21,45,6.0,20.0,33.0
+287,Dishwashing,Morning,Summer,28,26,60,11.0,23.0,38.0
+288,Laundry,Evening,Winter,-5,17,55,14.0,8.0,28.0
+289,Shower,Afternoon,Autumn,15,22,48,9.0,16.0,39.0
+290,Hand Washing,Morning,Summer,35,25,50,5.0,30.0,30.0
+291,Shower,Morning,Winter,5,20,45,9.0,10.0,42.0
+292,Hand Washing,Evening,Summer,30,24,55,5.0,25.0,35.0
+293,Dishwashing,Afternoon,Spring,20,22,50,12.0,15.0,45.0
+294,Laundry,Morning,Autumn,10,19,40,15.0,12.0,30.0
+295,Shower,Evening,Winter,0,18,50,10.0,5.0,40.0
+296,Hand Washing,Afternoon,Spring,22,21,45,6.0,20.0,33.0
+297,Dishwashing,Morning,Summer,28,26,60,11.0,23.0,38.0
+298,Laundry,Evening,Winter,-5,17,55,14.0,8.0,28.0
+299,Shower,Afternoon,Autumn,15,22,48,9.0,16.0,39.0
