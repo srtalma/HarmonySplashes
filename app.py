@@ -1,77 +1,48 @@
 import streamlit as st
 import pandas as pd
-from sklearn.preprocessing import OneHotEncoder
-from sklearn.model_selection import train_test_split
-from sklearn.ensemble import RandomForestRegressor
-from sklearn.metrics import mean_squared_error, r2_score
+import pickle
 
 # Set the page title
 st.set_page_config(page_title='Harmony Splash Project')
 
-# Function to train the model
-def train_model():
-    # Read the Excel file
-    df = pd.read_excel(r"data.xlsx")
-
-    # Drop rows with any NaN values
-    df = df.dropna()
-
-    # Encode categorical features
-    encoder = OneHotEncoder(sparse_output=False)
-    encoded_features = encoder.fit_transform(df[['Activity', 'TimeOfDay', 'Season']])
-    encoded_df = pd.DataFrame(encoded_features, columns=encoder.get_feature_names_out(['Activity', 'TimeOfDay', 'Season']))
-
-    # Concatenate encoded features with the rest of the data
-    df_encoded = pd.concat([df.drop(['Activity', 'TimeOfDay', 'Season'], axis=1), encoded_df], axis=1)
-
-    # Define features and target variable
-    X = df_encoded.drop(['UserID', 'DesiredTemp'], axis=1)
-    y = df_encoded['DesiredTemp']
-
-    # Split data into training and test sets
-    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
-
-    # Initialize and train the model
-    model = RandomForestRegressor(random_state=42)
-    model.fit(X_train, y_train)
-
-    # Predict on the test set
-    y_pred = model.predict(X_test)
-
-    # Evaluate the model
-    mse = mean_squared_error(y_test, y_pred)
-    r2 = r2_score(y_test, y_pred)
-
-    st.write(f'Mean Squared Error: {mse}')
-    st.write(f'R2 Score: {r2}')
-
-    return model
+def load_model():
+    try:
+        model_filename = 'model.pkl'  # Adjust the path if the file is in a subfolder
+        with open(model_filename, 'rb') as file:
+            model = pickle.load(file)
+        st.success("Model loaded successfully!")
+        return model
+    except FileNotFoundError:
+        st.error(f"Model file not found at {model_filename}")
+    except Exception as e:
+        st.error(f"Error loading model: {e}")
+    return None
 
 # Main function for the Streamlit app
 def main():
-    # Train the model
-    model = train_model()
+    # Load the model
+    model = load_model()
 
     if model:
         # -------------------- User input ----------------------
-        activity = st.selectbox('Select the Activity', ['Shower', 'Hand Washing', 'Dishwashing', 'Laundry'])
-        time_of_day = st.selectbox('Select the Time of Day', ['Morning', 'Afternoon', 'Evening'])
-        season = st.selectbox('Select the Season', ['Spring', 'Summer', 'Autumn', 'Winter'])
+        activity = st.selectbox('Select the Activity', ['Shower', 'Hand Washing', 'Dishwashing', 'Laundry'], label_visibility="visible")
+        time_of_day = st.selectbox('Select the Time of Day', ['Morning', 'Afternoon', 'Evening'], label_visibility="visible")
+        season = st.selectbox('Select the Season', ['Spring', 'Summer', 'Autumn', 'Winter'], label_visibility="visible")
 
         st.subheader("Select a range of External Temperature")
-        external_temp = st.slider("", min_value=-5, max_value=35)
+        external_temp = st.slider("External Temperature", min_value=-5, max_value=35, label_visibility="visible") # type slider 
 
         st.subheader("Select the Room Temperature")
-        room_temp = st.slider("", min_value=0, max_value=50)
+        room_temp = st.slider("Room Temperature", min_value=0, max_value=50, label_visibility="visible") # type slider
 
         st.subheader("Select the Room Humidities")
-        room_humidities = st.slider("", min_value=40, max_value=80)
+        room_humidities = st.slider("Room Humidities", min_value=40, max_value=80, label_visibility="visible") # type slider
 
         st.subheader("Select the Flow Rate")
-        flow_rate = st.slider("", min_value=5, max_value=50)
+        flow_rate = st.slider("Flow Rate", min_value=5, max_value=50, label_visibility="visible") # type slider
 
         st.subheader("Select the Cold Water Temperature")
-        cold_water = st.slider("", min_value=0, max_value=30)
+        cold_water = st.slider("Cold Water Temperature", min_value=0, max_value=30, label_visibility="visible") # type slider
 
         # Create a DataFrame with the user inputs
         input_data = {
