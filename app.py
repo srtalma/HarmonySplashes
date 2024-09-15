@@ -7,15 +7,16 @@ st.set_page_config(page_title='Harmony Splash Project')
 
 # Load the model
 try:
-    model_filename = 'model.pkl'
+    model_filename = 'model.pkl'  # Adjust the path if the file is in a subfolder
     with open(model_filename, 'rb') as file:
         model = pickle.load(file)
+    st.success("Model loaded successfully!")
 
+except FileNotFoundError:
+    st.error(f"Model file not found at {model_filename}")
 except Exception as e:
     st.error(f"Error loading model: {e}")
 
-def main():
-    st.title('Temperature Prediction App')
 
     # -------------------- User input ----------------------
     activity = st.selectbox('Select the Activity', ['Shower', 'Hand Washing', 'Dishwashing', 'Laundry'])
