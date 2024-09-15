@@ -1,6 +1,2 @@
-
 scikit-learn
 streamlit
-pandas
-scikit-learn
-
